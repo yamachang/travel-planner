@@ -1,0 +1,13 @@
+{
+  "name": "travel-planner",
+  "private": true,
+  "description": "個人旅行行程規劃 PWA（app 本身零依賴、零 build；此檔只為了跑冒煙測試）",
+  "type": "module",
+  "scripts": {
+    "serve": "python3 -m http.server 8000",
+    "test": "node test/smoke.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.49.0"
+  }
+}
